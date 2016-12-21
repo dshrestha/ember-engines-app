@@ -9,8 +9,6 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
     this.mount('thingy-frontend', { as: 'thingy', path: 'thingy' });
-
-    this.route('index', { path: '/'});
 });
 
 export default Router;

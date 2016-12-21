@@ -14,6 +14,13 @@
     "start": "ember server",
     "test": "ember test"
   },
+  "dependencies": {
+    "ember-cli-htmlbars": "^1.0.10",
+    "ember-cli-babel": "^5.1.7",
+    "ember-data": "^2.10.0",
+    "ember-engines": "0.4.0",
+    "thingy-frontend": "*"
+  },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^2.4.1",
